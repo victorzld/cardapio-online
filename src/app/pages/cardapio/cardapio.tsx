@@ -543,11 +543,11 @@ export default function Cardapio() {
                 </p>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 px-5 gap-7 md:gap-10 mb-16'>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
                         <img
                             src='/assets/hamb-1.png'
                             alt="Imagem do hamburguer"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px]  rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
 
                         <div>
@@ -568,11 +568,11 @@ export default function Cardapio() {
                             </div>
                         </div>
                     </div>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
                         <img
                             src='/assets/hamb-3.png'
                             alt="Imagem do hamburguer"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px]  rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
 
                         <div>
@@ -593,11 +593,12 @@ export default function Cardapio() {
                             </div>
                         </div>
                     </div>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
+
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
                         <img
                             src='/assets/hamb-2.png'
                             alt="Imagem do hamburguer"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px]  rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
 
                         <div>
@@ -618,11 +619,11 @@ export default function Cardapio() {
                             </div>
                         </div>
                     </div>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-center w-full'>
                         <img
                             src='/assets/hamb-4.png'
                             alt="Imagem do hamburguer"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px]  rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
 
                         <div>
@@ -653,11 +654,11 @@ export default function Cardapio() {
                 </p>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 px-5 gap-7 md:gap-10 mb-16'>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
                         <img
                             src='/assets/refri-1.png'
                             alt="Imagem da Bebida"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px]  rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
                         <div className="w-full">
                             <p className='font-bold'>Coca-Cola Lata</p>
@@ -673,11 +674,11 @@ export default function Cardapio() {
                             </div>
                         </div>
                     </div>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
                         <img
                             src='/assets/refri-2.png'
                             alt="Imagem da Bebida"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px]  rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
                         <div className="w-full">
                             <p className='font-bold'>Guaraná Lata</p>
@@ -693,11 +694,11 @@ export default function Cardapio() {
                             </div>
                         </div>
                     </div>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
                         <img
                             src='/assets/suco-1.png'
                             alt="Imagem da Bebida"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] max-sm:w-[90px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
                         <div className="w-full">
                             <p className='font-bold'>Suco de Uva</p>
@@ -713,11 +714,11 @@ export default function Cardapio() {
                             </div>
                         </div>
                     </div>
-                    <div className='group bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
+                    <div className='group max-sm:flex max-sm:flex-col max-sm:gap-10 bg-cyan-700/80 mx-auto rounded-md p-10 flex gap-5 items-center justify-start w-full'>
                         <img
                             src='/assets/suco-2.png'
                             alt="Imagem da Bebida"
-                            className="w-[112px] h-[112px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
+                            className="w-[112px] h-[112px] max-sm:h-[90px] rounded-md group-hover:scale-105 group-hover:rotate-1 duration-500"
                         />
                         <div className="w-full">
                             <p className='font-bold'>Suco de Pessêgo</p>
