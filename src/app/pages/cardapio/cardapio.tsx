@@ -302,9 +302,9 @@ export default function Cardapio() {
         if (isOpen) {
             return (
                 <div className="bg-zinc-950/50 w-full h-full fixed top-0 left-0 z-[99] 
-                    items-center justify-center flex"
+                    items-center justify-center flex max-sm:overflow-y-scroll"
                 >
-                    <div className="bg-slate-50 p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                    <div className="bg-slate-50 p-5 rounded-md min-w-[90%] md:min-w-[600px] max-sm:w-[300px] max-sm:overflow-y-scroll">
                         <h2 className="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
 
                         <div id="cart-items" className="flex justify-between mb-2 flex-col"></div>
@@ -322,10 +322,10 @@ export default function Cardapio() {
                                 </div>
 
                                 <div className="flex justify-between items-center">
-                                    <div className="flex flex-col gap-2 font-light w-full">
+                                    <div className="flex flex-col gap-2 font-light w-full max-sm:gap-3">
                                         <div>
                                             {contadorLanche1 > 0 ? (
-                                                <div className="flex items-center justify-between w-full">
+                                                <div className="flex items-center justify-between w-full max-sm:text-sm max-sm:gap-2">
                                                     <span>R$ {lancheValor1},00 : {contadorLanche1}x {nomeLanche1}</span>
 
                                                     <button onClick={deletarLanche1}>
@@ -337,9 +337,9 @@ export default function Cardapio() {
                                             )}
                                         </div>
 
-                                        <div className="mr-5 flex items-center w-full">
+                                        <div className="mr-5 flex items-center w-full ">
                                             {contadorLanche2 > 0 ? (
-                                                <div className="flex justify-between w-full">
+                                                <div className="flex justify-between w-full max-sm:text-sm max-sm:gap-2">
                                                     <span>R$ {lancheValor2},00 : {contadorLanche2}x {nomeLanche2}</span>
 
                                                     <button onClick={deletarLanche2}>
@@ -353,7 +353,7 @@ export default function Cardapio() {
 
                                         <div className="mr-5 flex items-center w-full">
                                             {contadorLanche3 > 0 ? (
-                                                <div className="flex items-center justify-between w-full">
+                                                <div className="flex items-center justify-between w-full max-sm:text-sm max-sm:gap-2">
                                                     <span>R$ {lancheValor3},00 : {contadorLanche3}x {nomeLanche3}</span>
 
                                                     <button onClick={deletarLanche3}>
@@ -367,7 +367,7 @@ export default function Cardapio() {
 
                                         <div className="mr-5 flex items-center w-full">
                                             {contadorLanche4 > 0 ? (
-                                                <div className="flex  items-center justify-between w-full">
+                                                <div className="flex  items-center justify-between w-full max-sm:text-sm max-sm:gap-2">
                                                     <span>R$ {lancheValor4},00 : {contadorLanche4}x {nomeLanche4}</span>
 
                                                     <button onClick={deletarLanche4}>
@@ -393,7 +393,7 @@ export default function Cardapio() {
 
                                 <div className="flex flex-col gap-2 font-light">
                                     {contadorBebida1 > 0 ? (
-                                        <div className="flex items-center justify-between w-full">
+                                        <div className="flex items-center justify-between w-full max-sm:text-sm max-sm:gap-2">
                                             <span>R$ {bebidaValor1},00 : {contadorBebida1}x {nomeBebida1}</span>
 
                                             <button onClick={deletarBebida1}>
@@ -405,7 +405,7 @@ export default function Cardapio() {
                                     )}
 
                                     {contadorBebida2 > 0 ? (
-                                        <div className="flex items-center justify-between w-full">
+                                        <div className="flex items-center justify-between w-full max-sm:text-sm  max-sm:gap-2">
                                             <span>R$ {bebidaValor2},00 : {contadorBebida2}x {nomeBebida2}</span>
 
                                             <button onClick={deletarBebida2}>
@@ -417,7 +417,7 @@ export default function Cardapio() {
                                     )}
 
                                     {contadorBebida3 > 0 ? (
-                                        <div className="flex items-center justify-between w-full">
+                                        <div className="flex items-center justify-between w-full max-sm:text-sm max-sm:gap-2">
                                             <span>R$ {bebidaValor3},00 : {contadorBebida3}x {nomeBebida3}</span>
 
                                             <button onClick={deletarBebida3}>
@@ -429,7 +429,7 @@ export default function Cardapio() {
                                     )}
 
                                     {contadorBebida4 > 0 ? (
-                                        <div className="flex items-center justify-between w-full">
+                                        <div className="flex items-center justify-between w-full max-sm:text-sm max-sm:gap-2">
                                             <span>R$ {bebidaValor4},00 : {contadorBebida4}x {nomeBebida4}</span>
 
                                             <button onClick={deletarBebida4}>
@@ -456,18 +456,18 @@ export default function Cardapio() {
                             </div>
                         </div>
 
-                        <div className="grid grid-cols-3">
+                        <div className="grid grid-cols-3 max-sm:flex max-sm:flex-col">
                             <div>
                                 <label htmlFor="address">Endereço para entrega: </label>
                             </div>
 
-                            <div className="col-span-2 flex items-center justify-center w-full">
-                                <div className="flex flex-col gap-2">
+                            <div className="col-span-2 flex items-center justify-center w-full max-sm:mt-5">
+                                <div className="flex flex-col gap-2 max-sm:items-center">
                                     <input
                                         onChange={(e) => setCidade(e.target.value)}
                                         value={cidade}
                                         className="border border-zinc-950 rounded-md py-1 px-2 
-                                        focus:bg-slate-100 outline-none w-[350px]"
+                                        focus:bg-slate-100 outline-none w-[350px] max-sm:w-[280px]"
                                         type="text"
                                         id="address"
                                         placeholder="Sua Cidade"
@@ -478,7 +478,7 @@ export default function Cardapio() {
                                         onChange={(e) => setBairro(e.target.value)}
                                         value={bairro}
                                         className="border border-zinc-950 rounded-md py-1 px-2
-                                     focus:bg-slate-100 outline-none w-[350px]"
+                                     focus:bg-slate-100 outline-none w-[350px] max-sm:w-[280px]"
                                         type="text"
                                         id="address"
                                         placeholder="Bairro"
@@ -489,7 +489,7 @@ export default function Cardapio() {
                                         onChange={(e) => setRua(e.target.value)}
                                         value={rua}
                                         className="border border-zinc-950 rounded-md py-1 px-2
-                                     focus:bg-slate-100 outline-none w-[350px]"
+                                     focus:bg-slate-100 outline-none w-[350px] max-sm:w-[280px]"
                                         type="text"
                                         id="address"
                                         placeholder="Sua rua e número da Casa"
