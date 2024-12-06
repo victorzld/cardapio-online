@@ -305,7 +305,7 @@ export default function Cardapio() {
                     items-center justify-center flex max-sm:overflow-y-scroll"
                 >
                     <div className="bg-slate-50 p-5 rounded-md min-w-[90%] md:min-w-[600px] max-sm:w-[300px] max-sm:overflow-y-scroll">
-                        <h2 className="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+                        <h2 className="text-center font-bold text-2xl mb-2 max-sm:text-lg">Meu Carrinho</h2>
 
                         <div id="cart-items" className="flex justify-between mb-2 flex-col"></div>
 
