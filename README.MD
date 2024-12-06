@@ -10,7 +10,7 @@
 
 - <a href="https://cardapio-online-eosin-three.vercel.app">Visite a aplicação</a>
 
-- <a>Inserir Vídeo</a>
+https://github.com/user-attachments/assets/597d8ebe-9711-49bf-b9eb-7646885d2cae
 
 Esta aplicação é um cardápio online, onde o usuário é capaz de selecionar dentre as opções disponíveis, adicionar o endereço, e o seu pedido será enviado ao 
 WhatsApp do estabelecimento, que prosseguirá com o pedido.
