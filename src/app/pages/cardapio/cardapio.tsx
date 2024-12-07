@@ -739,7 +739,7 @@ export default function Cardapio() {
 
             <div>
                 <div className="mt-10 w-full fixed bottom-0 z-40">
-                    {hora >= 18 || hora < 22 ? (
+                    {hora >= 18 && hora < 22 ? (
                         <div className="bg-green-900  p-4 flex items-center justify-center">
                             <button onClick={() => setOpenModalCart(!openModalCart)} className="flex text-teal-50 font-bold">
                                 <p className="mr-4 text-sm">Ver meu carrinho</p>

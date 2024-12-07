@@ -27,7 +27,7 @@ export default function Header() {
                     </div>
 
                     <div>
-                        {hora >= 18 || hora < 22 ? (
+                        {hora >= 18 && hora < 22 ? (
                             <div className='bg-green-800 rounded-lg py-1 px-4 mt-4'>
                                 <span className='text-slate-50 font-medium'>
                                     Seg a Dom - 18:00 as 22:00
