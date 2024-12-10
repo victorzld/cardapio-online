@@ -739,39 +739,21 @@ export default function Cardapio() {
 
             <div>
                 <div className="mt-10 w-full fixed bottom-0 z-40">
-                    {hora >= 18 && hora < 22 ? (
-                        <div className="bg-green-900  p-4 flex items-center justify-center">
-                            <button onClick={() => setOpenModalCart(!openModalCart)} className="flex text-teal-50 font-bold">
-                                <p className="mr-4 text-sm">Ver meu carrinho</p>
+                    <div className="bg-green-900  p-4 flex items-center justify-center">
+                        <button onClick={() => setOpenModalCart(!openModalCart)} className="flex text-teal-50 font-bold">
+                            <p className="mr-4 text-sm">Ver meu carrinho</p>
 
-                                <div className='flex relative'>
-                                    <span id="cart-count "
-                                        className='absolute -ml-1 -mt-1 rounded-2xl text-zinc-900 bg-slate-50 w-[15px] h-[15px]
+                            <div className='flex relative'>
+                                <span id="cart-count "
+                                    className='absolute -ml-1 -mt-1 rounded-2xl text-zinc-900 bg-slate-50 w-[15px] h-[15px]
                                         text-xs flex items-center justify-center'
-                                    >
-                                        {contador}
-                                    </span>
-                                    <ShoppingCart />
-                                </div>
-                            </button>
-                        </div>
-                    ) : (
-                        <div className="bg-red-900  p-4 flex items-center justify-center">
-                            <button onClick={() => setOpenModalCart(!openModalCart)} className="flex text-teal-50 font-bold">
-                                <p className="mr-4 text-sm">Ver meu carrinho</p>
-
-                                <div className='flex relative'>
-                                    <span id="cart-count "
-                                        className='absolute -ml-1 -mt-1 rounded-2xl text-zinc-900 bg-slate-50 w-[15px] h-[15px]
-                                text-xs flex items-center justify-center'
-                                    >
-                                        {contador}
-                                    </span>
-                                    <ShoppingCart />
-                                </div>
-                            </button>
-                        </div>
-                    )}
+                                >
+                                    {contador}
+                                </span>
+                                <ShoppingCart />
+                            </div>
+                        </button>
+                    </div>
                 </div>
 
                 <ModalCart isOpen={openModalCart} setOpenModalCart={setOpenModalCart} />
