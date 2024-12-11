@@ -12,12 +12,11 @@
 
 https://github.com/user-attachments/assets/597d8ebe-9711-49bf-b9eb-7646885d2cae
 
-Esta aplicação é um cardápio online, onde o usuário é capaz de selecionar dentre as opções disponíveis, adicionar o endereço, e o seu pedido será enviado ao 
-WhatsApp do estabelecimento, que prosseguirá com o pedido.
+Esta aplicação é um cardápio online, onde o usuário é capaz de selecionar dentre as opções disponíveis, adicionar o endereço, e o seu pedido será enviado ao WhatsApp do estabelecimento, que prosseguirá com o pedido.
 
 Foi desenvolvido utilizando o React, Next.js, Javascript, Typescript e Tailwind CSS.
 
-Esta aplicação foi construida para atender estabelecimentos de pequeno e médio porte, a fim de facilitar e viabilizar pedidos por delivery. 
+Esta aplicação foi construída para atender estabelecimentos de pequeno e médio porte, a fim de facilitar e viabilizar pedidos por delivery.
 
 ## 🚀 Primeiros passos
 
